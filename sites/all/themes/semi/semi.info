@@ -1,4 +1,4 @@
 name = Semi
-description = A Semi theme
+description = Sub theme of bootstrap_barrio for SEMI Association website
 core = 7.x
 base theme = bootstrap_barrio
