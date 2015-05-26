@@ -11,6 +11,79 @@ function semi_highlights_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
+  // 'field_collection_item-field_highlight_url-field_featured_highlight'
+  $field_instances['field_collection_item-field_highlight_url-field_featured_highlight'] = array(
+    'bundle' => 'field_highlight_url',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_featured_highlight',
+    'label' => 'Featured Highlight',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'display_label' => 1,
+      ),
+      'type' => 'options_onoff',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_highlight_url-field_highlight_body'
+  $field_instances['field_collection_item-field_highlight_url-field_highlight_body'] = array(
+    'bundle' => 'field_highlight_url',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_highlight_body',
+    'label' => 'Highlight Body',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance:
   // 'field_collection_item-field_highlight_url-field_highlight_image'
   $field_instances['field_collection_item-field_highlight_url-field_highlight_image'] = array(
     'bundle' => 'field_highlight_url',
@@ -152,6 +225,8 @@ function semi_highlights_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Featured Highlight');
+  t('Highlight Body');
   t('Highlight Image');
   t('Highlight URL');
   t('Link');
