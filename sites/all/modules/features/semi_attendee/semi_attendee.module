@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Semi Attendee feature.
+ */
+
+include_once 'semi_attendee.features.inc';
