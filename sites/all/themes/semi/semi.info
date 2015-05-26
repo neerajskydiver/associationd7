@@ -2,3 +2,28 @@ name = Semi
 description = A Semi theme
 core = 7.x
 base theme = bootstrap_barrio
+
+regions[top]            = 'Top Header'
+
+regions[top_banner]     = 'Top Banner'
+regions[top_banner_image]     = 'Top Banner Image'
+
+regions[header]         = 'Header'
+regions[navigation]     = 'Navigation'
+regions[yamm]           = 'Yamm'
+regions[slider]         = 'Slider'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[preface]        = 'Preface'
+regions[sidebar_first]  = 'Primary Column'
+regions[sidebar_second] = 'Secondary Column'
+regions[content_top]    = 'Content Top'
+regions[content]        = 'Content'
+regions[content_bottom] = 'Content Bottom'
+regions[postcript_top]  = 'Postcript Top'
+regions[postcript_bottom] = 'Postcript Bottom'
+regions[footer]         = 'Footer'
+
+stylesheets[all][] = css/semi.css
+scripts[] = js/semi.js
+
