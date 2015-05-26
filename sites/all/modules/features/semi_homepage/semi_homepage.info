@@ -1,0 +1,17 @@
+name = Semi Homepage
+description = Feature for Semi homepage
+core = 7.x
+package = Semi
+version = 7.x-1.0
+project = semi_homepage
+dependencies[] = fe_block
+dependencies[] = image
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[fe_block_boxes][] = industry_news
+features[fe_block_settings][] = block-industry_news
+features[features_api][] = api:2
+features[image][] = highlight_featured
+features[image][] = highlight_list
+features[views_view][] = highlights
+features_exclude[dependencies][ctools] = ctools
