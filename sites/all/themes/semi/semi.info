@@ -1,0 +1,4 @@
+name = Semi
+description = A Semi theme
+core = 7.x
+base theme = bootstrap_barrio
