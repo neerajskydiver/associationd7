@@ -1,0 +1,16 @@
+name = Semi Page
+description = Feature for Semi pages
+core = 7.x
+package = Semi
+version = 7.x-1.0
+project = semi_page
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_left_callout_html
+features[field_base][] = field_parent_page_path
+features[field_instance][] = node-page-body
+features[field_instance][] = node-page-field_left_callout_html
+features[field_instance][] = node-page-field_parent_page_path
+features[node][] = page

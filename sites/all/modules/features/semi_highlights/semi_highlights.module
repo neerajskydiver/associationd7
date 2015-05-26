@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Semi Highlights feature.
+ */
+
+include_once 'semi_highlights.features.inc';
