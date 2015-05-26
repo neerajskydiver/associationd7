@@ -89,8 +89,10 @@ function semi_homepage_views_default_views() {
     'field_highlight_url' => 'field_highlight_url',
   );
 
-  /* Display: Fetured Highlight Block */
-  $handler = $view->new_display('block', 'Fetured Highlight Block', 'block');
+  /* Display: Featured Highlight Block */
+  $handler = $view->new_display('block', 'Featured Highlight Block', 'highlight_featured');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Featured Highlights';
 
   /* Display: Highlights Block */
   $handler = $view->new_display('block', 'Highlights Block', 'block_1');

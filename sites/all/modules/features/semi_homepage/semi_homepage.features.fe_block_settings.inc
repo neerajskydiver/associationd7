@@ -12,6 +12,38 @@ function semi_homepage_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['block-ad_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'ad_block',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'semi' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'semi',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['block-industry_news'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -25,6 +57,12 @@ function semi_homepage_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'semi' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'semi',
         'weight' => 0,
       ),
       'seven' => array(
