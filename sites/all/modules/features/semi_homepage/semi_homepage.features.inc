@@ -26,6 +26,30 @@ function semi_homepage_views_api($module = NULL, $api = NULL) {
 function semi_homepage_image_default_styles() {
   $styles = array();
 
+  // Exported image style: event_homapge.
+  $styles['event_homapge'] = array(
+    'label' => 'Event Homapge (220x130)',
+    'effects' => array(
+      4 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 220,
+          'height' => 130,
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+      5 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 220,
+          'height' => 130,
+        ),
+        'weight' => 2,
+      ),
+    ),
+  );
+
   // Exported image style: highlight_featured.
   $styles['highlight_featured'] = array(
     'label' => 'Highlight Featured (460x315)',

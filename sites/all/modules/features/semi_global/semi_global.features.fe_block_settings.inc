@@ -1,22 +1,22 @@
 <?php
 /**
  * @file
- * semi_homepage.features.fe_block_settings.inc
+ * semi_global.features.fe_block_settings.inc
  */
 
 /**
  * Implements hook_default_fe_block_settings().
  */
-function semi_homepage_default_fe_block_settings() {
+function semi_global_default_fe_block_settings() {
   $export = array();
 
   $export['version'] = '2.0';
 
-  $export['block-ad_block'] = array(
+  $export['menu-menu-market-info-menu'] = array(
     'cache' => -1,
     'custom' => 0,
-    'machine_name' => 'ad_block',
-    'module' => 'block',
+    'delta' => 'menu-market-info-menu',
+    'module' => 'menu',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
@@ -44,11 +44,11 @@ function semi_homepage_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['block-industry_news'] = array(
+  $export['menu-menu-top-right-menu'] = array(
     'cache' => -1,
     'custom' => 0,
-    'machine_name' => 'industry_news',
-    'module' => 'block',
+    'delta' => 'menu-top-right-menu',
+    'module' => 'menu',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),

@@ -62,14 +62,6 @@ function semi_homepage_default_fe_block_boxes() {
   $export['ad_block'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'Top Left Block';
-  $fe_block_boxes->format = 'full_html';
-  $fe_block_boxes->machine_name = 'homepage_top_left_block';
-  $fe_block_boxes->body = '<div class="top_left_phone">+555.123.4567</div>';
-
-  $export['homepage_top_left_block'] = $fe_block_boxes;
-
-  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Industry News';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'industry_news';
