@@ -3,11 +3,10 @@ description = Sub theme of bootstrap_barrio for SEMI Association website
 core = 7.x
 base theme = bootstrap_barrio
 
+regions[top_left]       = 'Top Left'
+regions[top_right]      = 'Top Right'
+
 regions[top]            = 'Top Header'
-
-regions[top_banner]     = 'Top Banner'
-regions[top_banner_image]     = 'Top Banner Image'
-
 regions[header]         = 'Header'
 regions[navigation]     = 'Navigation'
 regions[yamm]           = 'Yamm'

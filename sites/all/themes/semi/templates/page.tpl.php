@@ -5,6 +5,21 @@
  * Override of Bootstrap page.tpl.php.
  */
 ?>
+
+<div id="top_wrapper">
+ <div class="container">
+ <div class="row">
+  <div id="top_left" class="col-md-3">
+    <?php print render($page['top_left']); ?>
+  </div>
+  <div id="top_right" class="col-md-9">
+    <?php print render($page['top_right']); ?>
+  </div>
+ </div>
+ </div>
+</div>
+
+<div id="header_wrapper">
 <?php if (!empty($secondary_nav) || !empty($page['top'])): ?>
 <header role="banner">
   <div id="top" class="container">
@@ -12,17 +27,8 @@
     <?php print render($page['top']); ?>
   </div>
 </header>
-<div id="top-banner">
-  <div class="container">
-    <?php print render($page['top_banner']); ?>
-  </div>
-</div>
-<div id="top-banner-image">
-    <?php print render($page['top_banner_image']); ?>
-</div>
 <?php endif; ?>
-
-<header id="navbar" class="<?php print $navbar_classes; ?>" role="banner">
+<header id="navbar" class="navbar navbar-default" role="banner">
   <div class="navbar-inner">
      <div id="main-navs">
        <div class="container">
@@ -76,6 +82,7 @@
     </div></div>
   </div>
 </header>
+</div>
 
 <?php if (!empty($page['slider'])): ?>
   <div id="slideshow_container">
