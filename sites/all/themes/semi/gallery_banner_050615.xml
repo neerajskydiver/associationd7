@@ -1,0 +1,23 @@
+<photos>
+
+   
+   <photo>
+   		<src>/en/sites/semi.org/files/data15/images/russia15-396x240.jpg</src>
+   		<link>http://www.semiconrussia.org</link>
+   </photo>
+   
+  	
+	
+   <photo>
+   		<src>/en/sites/semi.org/files/data15/images/west15-396x240.jpg</src>
+   		<link>http://www.semiconwest.org</link>
+   </photo>
+   
+   	
+  <photo>
+   		<src>/en/sites/semi.org/files/data15/images/taiwan15-396x240.jpg</src>
+   		<link>http://www.semicontaiwan.org</link>
+   </photo>
+	
+
+</photos>
